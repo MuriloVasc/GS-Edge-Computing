@@ -212,17 +212,6 @@ LiquidCrystal_I2C
 
 ---
 
-# 🔮 Possíveis Melhorias
-
-- Dashboard de monitoramento serial;
-- Registro histórico das sessões;
-- Interface gráfica externa;
-- Integração com ESP32;
-- Simulação de múltiplos satélites;
-- Controle de QBER por software.
-
----
-
 # 👨‍💻 Autores
 
 <table>
