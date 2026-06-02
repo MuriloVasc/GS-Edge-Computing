@@ -216,11 +216,26 @@ LiquidCrystal_I2C
 
 <table>
   <tr>
-    <td align="center">Állex Brandão</td>
-    <td align="center">Erick Nathan</td>
-    <td align="center">Enzo Abreu</td>
-    <td align="center">Henrique Bueno</td>
-    <td align="center">Murilo Gomes</td>
+    <td align="center">
+      <img src="./docs/images/autores/allex.png" width="120px" alt="Állex Brandão"/><br>
+      <b>Állex Brandão</b>
+    </td>
+    <td align="center">
+      <img src="./docs/images/autores/erick.png" width="120px" alt="Erick Nathan"/><br>
+      <b>Erick Nathan</b>
+    </td>
+    <td align="center">
+      <img src="./docs/images/autores/enzo.jpg" width="120px" alt="Enzo Abreu"/><br>
+      <b>Enzo Abreu</b>
+    </td>
+    <td align="center">
+      <img src="./docs/images/autores/henrique.jpg" width="120px" alt="Henrique Bueno"/><br>
+      <b>Henrique Bueno</b>
+    </td>
+    <td align="center">
+      <img src="./docs/images/autores/murilo.jpg" width="120px" alt="Murilo Gomes"/><br>
+      <b>Murilo Gomes</b>
+    </td>
   </tr>
 </table>
 
