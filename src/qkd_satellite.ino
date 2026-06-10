@@ -1,3 +1,13 @@
+// Integrantes do Projeto
+
+// Turma: 1ESPW
+
+// Állex Brandão - RM571383
+// Erick Nathan - RM573635
+// Enzo Abreu - RM572995
+// Henrique Bueno - RM570591
+// Murilo Gomes - RM570941
+
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 
@@ -13,7 +23,7 @@ const int POT_PIN    = A0;
 const int BTN_PIN    = 0;
 const int BUZZER_PIN = 1;
 
-const int QBER_LIMITE = 11;
+const int QBER_LIMITE = 20;
 
 int totalSessoes  = 0;
 int totalSucesso  = 0;
@@ -46,7 +56,7 @@ void setup() {
   lcd.setCursor(0, 0);
   lcd.print(" QKD SATELLITE  ");
   lcd.setCursor(0, 1);
-  lcd.print("  FIAP  GS 2025 ");
+  lcd.print("  FIAP  GS 2026 ");
   for (int i = 0; i < NUM_LEDS; i++) {
     digitalWrite(LED_PINS[i], HIGH);
     delay(60);
@@ -101,14 +111,14 @@ void aguardarBotao() {
 }
 
 void faseEmissao() {
-  exibirFase("FASE 1: EMISSAO ", "Fotons enviados ");
+  exibirFase("FASE 1: EMISSAO ", "Fotons Recebidos ");
   beepAlerta();
-  delay(400);
-  for (int i = 0; i < 5; i++) {
+  delay(1000);
+  for (int i = 0; i < 10; i++) {
     lcd.setCursor(0, 1);
     lcd.print("Foton ");
     lcd.print(i + 1);
-    lcd.print("/5      ");
+    lcd.print("/10      ");
     digitalWrite(LED_VERDE[i], HIGH);
     delay(250);
   }
